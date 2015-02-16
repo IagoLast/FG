@@ -1,0 +1,250 @@
+<html>
+<head>
+	<title>FG</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="FG - Another grid system based on the flex display property.">
+	<meta name="keywords" content="HTML,CSS,flexbox,flex,grid">
+	<meta name="author" content="IagoLast">
+	
+	<link rel="stylesheet" type="text/css" href="dist/fgrid.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> 
+	<link rel="stylesheet" type="text/css" href="dist/fg_extra.min.css">
+	<style>
+	.red {
+		background-color: #ff5252;
+	}
+
+	.blue {
+		background-color: #448aff;
+		border: 1px solid white;
+	}
+
+	.green{
+		background-color: #69f0ae;
+	}
+
+	.yellow{
+
+		background-color: #eeff41;
+	}
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400px;
+	}
+	hr{
+		margin: 30px 0;
+	}
+	section {
+		margin-bottom: 30px;		
+	}
+	footer {
+		margin: 50px auto;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section class="row">
+			<div class="col center s12">
+				<h1>FG</h1>
+				<p>Another grid system based on the <a href="http://www.w3schools.com/cssref/css3_pr_flex.asp">flex</a> display property.</p>
+			</div>
+		</section>
+		<hr>
+
+		<section class="row">
+			<div class="col s12">
+				<h2>12 Columns</h2>
+				<p>Like Bootstrap <b>FG</b> includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns</p>
+			</div>
+
+			<div class="row">
+				<div class="col center s1 blue"> <p>1</p> </div>
+				<div class="col center s1 blue"> <p>2</p> </div>
+				<div class="col center s1 blue"> <p>3</p> </div>
+				<div class="col center s1 blue"> <p>4</p> </div>
+				<div class="col center s1 blue"> <p>5</p> </div>
+				<div class="col center s1 blue"> <p>6</p> </div>
+				<div class="col center s1 blue"> <p>7</p> </div>
+				<div class="col center s1 blue"> <p>8</p> </div>
+				<div class="col center s1 blue"> <p>9</p> </div>
+				<div class="col center s1 blue"> <p>10</p> </div>
+				<div class="col center s1 blue"> <p>11</p> </div>
+				<div class="col center s1 blue"> <p>12</p> </div>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col s12"> 
+				<h2>Adding Responsiveness</h2>
+				<div class="row">
+					<div class="col center s4">
+						<p>Mobile</p>
+					</div>
+					<div class="col center s4">
+						<p>Tablet</p>
+					</div>
+					<div class="col center s4">
+						<p>Desktop</p>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col center s4">
+						<p>.s</p>
+					</div>
+					<div class="col center s4">
+						<p>.m</p>
+					</div>
+					<div class="col center s4">
+						<p>.l</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col center s12 blue"><p>col s12</p></div>
+					<div class="col center s12 m6 l4 blue"><p>col s12 m6 l4 </p> </div>
+					<div class="col center s12 m6 l8 blue"><p>col s12 m6 l8 </p> </div>
+				</div>
+			</div>
+
+
+		</section>
+
+		<section class="row">
+			<div class="col s12">
+				<h2>Offsets</h2>
+				<p>Offset a column using o-sx o-mx o-lx</p>	
+			</div>
+
+
+			<div class="row">
+				<div class="row"><div class="col center s3 o-s8 blue"><p>col s3 o-s8</p></div></div>
+				<div class="row"><div class="col center s3 o-m8 blue"><p>col s3 o-m8</p></div></div>
+				<div class="row"><div class="col center s3 o-l8 blue"><p>col s3 o-l8</p></div></div>
+			</div>
+		</section>
+
+
+		<section class="row">
+			<div class="col s12">
+				<h2>Position.</h2>
+				<p>You can use the next modifiers to define how the .row & .col elements are displayed.</p>	
+			</div>
+			<div class="row">
+				<div class="col s12 m6 l4">
+					<h4>default</h4>
+					<div class="row" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4">
+					<h4>top</h4>
+					<div class="row top" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4">
+					<h4>bot</h4>
+					<div class="row bot" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4">
+					<h4>start</h4>
+					<div class="row start" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4">
+					<h4>center</h4>
+					<div class="row center" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+
+				<div class="col s12 m6 l4">
+					<h4>end</h4>
+					<div class="row end" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4">
+					<h4>around</h4>
+					<div class="row around" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+
+				<div class="col s12 m6 l4 o-l4">
+					<h4>between</h4>
+					<div class="row between" style="height:50px; border:1px dotted #aaa;">
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>
+						<div class="col s2 blue">  <p></p></div>		        
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col s12">
+				<h3>Combine this classes</h3>
+				<div class="row" style="height:300px;">
+					<div class="col s12 m6 center bot blue">
+						<p>center bot</p>
+					</div>
+
+					<div class="col s12 m6">
+						<div class="row s6 fb3">
+							<div class="col start top s6 blue">
+								<p>start top</p>
+							</div>
+							<div class="col end bot s6 m6 blue" >
+								<p>end bot</p>
+							</div>
+
+						</div>
+						<div class="row center mid fb9 blue">
+							<p>center mid</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<footer class="row center">
+			<a href="www.github.com/iagolast/fg">Github</a>
+		</footer>
+	</div>
+</body>
+</html>
