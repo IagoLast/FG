@@ -8,6 +8,8 @@
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
+  will-change: flex-basis, width, height;
+
 
   &.top{
     align-items: flex-start;
