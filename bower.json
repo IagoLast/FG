@@ -1,0 +1,27 @@
+{
+  "name": "FG",
+  "version": "0.1.0",
+  "homepage": "https://github.com/IagoLast/FG",
+  "authors": [
+    "IagoLast <iago.lastra@gmail.com>"
+  ],
+  "description": "Another grid system based on the flex display property.",
+  "main": "dist/fgrid.css",
+  "keywords": [
+    "css",
+    "css",
+    "grid",
+    "grid",
+    "system",
+    "flex",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
