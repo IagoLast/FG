@@ -8,15 +8,42 @@
   max-width: 1280px;
   width: 90%;
   @include transition(all .3s);
+  &.sL{
+    width: 85%;
+  }
+  &.sM{
+    width: 95%;
+  }
+  &.sL{
+    width: 100%;
+  }
 }
 
 @media #{$medium-and-up} {
   .container {
     width: 85%;
+    &.mL{
+      width: 80%;
+    }
+    &.mM{
+      width: 90%;
+    }
+    &.mL{
+      width: 95%;
+    }
   }
 }
 @media #{$large-and-up} {
   .container {
     width: 70%;
+    &.lL{
+      width: 65%;
+    }
+    &.lM{
+      width: 75%;
+    }
+    &.lL{
+      width: 80%;
+    }
   }
 }

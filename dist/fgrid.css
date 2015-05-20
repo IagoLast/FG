@@ -1,4 +1,3 @@
-/*** Global ***/
 .row {
   transition: all 0.3s;
   box-sizing: border-box;
@@ -260,10 +259,28 @@
   max-width: 1280px;
   width: 90%;
   transition: all 0.3s; }
+  .container.sL {
+    width: 85%; }
+  .container.sM {
+    width: 95%; }
+  .container.sL {
+    width: 100%; }
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%; } }
+    width: 85%; }
+    .container.mL {
+      width: 80%; }
+    .container.mM {
+      width: 90%; }
+    .container.mL {
+      width: 95%; } }
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%; } }
+    width: 70%; }
+    .container.lL {
+      width: 65%; }
+    .container.lM {
+      width: 75%; }
+    .container.lL {
+      width: 80%; } }
