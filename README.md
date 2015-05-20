@@ -19,7 +19,7 @@ Cols can be placed outside a row (ie to create a vertical menu) but it´s better
 ##Grid options
 |     | small   |  medium |  large  |
 |---  |---      |---      | ---     |
-| Size| < 601px | < 993px | >= 995px|
+| Size| < 601px | < 993px | >= 994px|
 | Class | .s    | .m      |.l       |
 
 ##Info & Examples
